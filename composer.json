@@ -1,0 +1,21 @@
+{
+  "name": "geardev/http-swow-server",
+  "description": "Http server. Part of toolkit to boost your development with Laravel and geardev.io",
+  "autoload": {
+    "psr-4": {
+      "GearDev\\HttpSwowServer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GearDev\\HttpSwowServer\\GearHttpSwowServerServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "geardev/core": "^0.0",
+    "geardev/coroutines": "^0.0",
+    "swow/swow": "v1.5.2"
+  }
+}
