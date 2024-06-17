@@ -16,6 +16,8 @@
   "require": {
     "geardev/core": "^0.0",
     "geardev/coroutines": "^0.0",
-    "swow/swow": "v1.5.2"
+    "swow/swow": "v1.5.2",
+    "geardev/processes": "^0.0",
+    "geardev/http-server": "^0.0"
   }
 }
