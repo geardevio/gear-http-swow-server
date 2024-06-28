@@ -6,19 +6,8 @@
       "GearDev\\HttpSwowServer\\": "src/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "GearDev\\HttpSwowServer\\GearHttpSwowServerServiceProvider"
-      ]
-    }
-  },
   "require": {
-    "geardev/core": "^0.0",
-    "geardev/coroutines": "^0.0",
     "swow/swow": "v1.5.2",
-    "geardev/processes": "^0.0",
-    "geardev/http-server": "^0.0",
-    "laravel/octane": "^2.4"
+    "geardev/processes": "^0.1"
   }
 }
