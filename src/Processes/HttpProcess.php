@@ -43,7 +43,7 @@ class HttpProcess extends AbstractProcess
                     CoFactory::createCo('http_consumer')
                         ->charge(function: function (ServerConnection $connection, HttpCycleInterface $innerHttpServer): void {
                             $innerHttpServer->onRequest($connection);
-                        })->args($connection, $innerHttpServer)->runWithClonedDiContainer();
+                        })->args($connection, $innerHttpServer)->run();
                 } catch (\Exception $exception) {
                     echo json_encode(['msg'=>'Http server error: '.$exception->getMessage()]).PHP_EOL;
                 }
