@@ -48,7 +48,7 @@ class HttpProcess extends AbstractProcess
                     echo json_encode(['msg'=>'Http server error: '.$exception->getMessage()]).PHP_EOL;
                 }
             }
-        })->args($server, $innerHttpServer)->runWithClonedDiContainer();
+        })->args($server, $innerHttpServer)->run();
         return true;
     }
 
