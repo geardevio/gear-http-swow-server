@@ -8,6 +8,7 @@
   },
   "require": {
     "swow/swow": "v1.5.2",
-    "geardev/processes": "^0.1"
+    "geardev/processes": "^0.1",
+    "geardev/swow": "^0.1"
   }
 }
